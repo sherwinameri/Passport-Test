@@ -11,5 +11,7 @@ injectTapEventPlugin();
 
 ReactDom.render((
   <MuiThemeProvider muiTheme={getMuiTheme()}>
-    <Router history={browserHistory} routes={routes} />
+    <Router routes={routes} />
   </MuiThemeProvider>), document.getElementById('react-app'));
+
+// export default App;
